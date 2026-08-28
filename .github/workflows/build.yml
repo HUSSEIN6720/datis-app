@@ -22,20 +22,9 @@ jobs:
           pip install --upgrade pip
           pip install buildozer Cython
 
-      # ✅ مرحله جدید: قبول خودکار مجوزهای Android SDK
+      # ✅ استفاده از اکشن آماده برای قبول مجوزها
       - name: Accept Android SDK licenses
-        run: |
-          mkdir -p ~/.android
-          echo "### Licenses accepted by GitHub Actions ###" > ~/.android/licenses/android-sdk-license
-          echo "8933bad161af4178b1185d1a37fbf41ea5269c55" >> ~/.android/licenses/android-sdk-license
-          echo "d56f5187479451eabf01fb78af6dfcb131a6481e" >> ~/.android/licenses/android-sdk-license
-          echo "84831b9409646a918e30573bab4c9c91346d8abd" >> ~/.android/licenses/android-sdk-license
-          echo "### Licenses accepted by GitHub Actions ###" > ~/.android/licenses/android-sdk-preview-license
-          echo "84831b9409646a918e30573bab4c9c91346d8abd" >> ~/.android/licenses/android-sdk-preview-license
-          echo "### Licenses accepted by GitHub Actions ###" > ~/.android/licenses/android-sdk-intel
-          echo "extra-android" > ~/.android/licenses/android-sdk-license
-          echo "extra-google" > ~/.android/licenses/android-sdk-license
-          echo "extra-m2repository" > ~/.android/licenses/android-sdk-license
+        uses: yurikoles/android-sdk-license-acceptance@v1
 
       - name: Build APK with Buildozer
         uses: digreatbrian/buildozer-action@v2
