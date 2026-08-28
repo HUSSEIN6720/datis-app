@@ -10,8 +10,8 @@ source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,json
 source.exclude_exts = spec,db
 
-# ✅ استفاده از نسخه پایتون 3.11 (همون نسخه‌ای که در سیستم هست)
-requirements = python3==3.11,kivy==2.2.1
+# ✅ استفاده از نسخه پایتون 3.14.2 (همون نسخه hostpython3)
+requirements = python3==3.14.2,kivy==2.2.1
 
 orientation = portrait
 fullscreen = 0
