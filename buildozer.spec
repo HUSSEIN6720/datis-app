@@ -31,7 +31,7 @@ orientation = portrait
 fullscreen = 0
 
 # آیکون برنامه (یه فایل PNG بذار توی پوشه)
-# icon.filename = datis_logo_icon.png
+icon.filename = datis_logo_icon.png
 
 # مجوزهای اندروید
 android.permissions = INTERNET,WRITE_EXTERNAL_STORAGE,READ_EXTERNAL_STORAGE
@@ -51,4 +51,3 @@ android.gradle_dependencies =
 [buildozer]
 log_level = 2
 warn_on_root = 1
-icon.filename = datis_logo_icon.png
