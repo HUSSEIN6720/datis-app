@@ -45,3 +45,4 @@ jobs:
         with:
           name: datis-app
           path: bin/*.apk
+
