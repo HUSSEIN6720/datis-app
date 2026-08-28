@@ -10,8 +10,8 @@ source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,json
 source.exclude_exts = spec,db
 
-# ✅ استفاده از نسخه پایتون 3.14.2 (همون نسخه hostpython3)
-requirements = python3==3.14.2,kivy==2.2.1
+# ✅ استفاده از نسخه‌هایی که با هم کار میکنن
+requirements = python3==3.9,kivy==2.0.0
 
 orientation = portrait
 fullscreen = 0
@@ -22,7 +22,7 @@ android.permissions = INTERNET,WRITE_EXTERNAL_STORAGE,READ_EXTERNAL_STORAGE
 
 android.api = 30
 android.minapi = 21
-android.ndk = 28c
+android.ndk = 23b
 android.sdk = 30
 
 android.accept_sdk_license = True
