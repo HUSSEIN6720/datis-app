@@ -52,4 +52,3 @@ android.gradle_dependencies =
 log_level = 2
 warn_on_root = 1
 icon.filename = datis_logo_icon.png
-
