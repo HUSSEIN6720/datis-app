@@ -12,9 +12,6 @@ package.domain = com.datis
 # ورژن برنامه
 version = 1.0.0
 
-# فرمت ورژن
-version.regex = (\d+\.\d+\.\d+)
-
 # فایل اصلی
 source.dir = .
 
@@ -34,7 +31,7 @@ orientation = portrait
 fullscreen = 0
 
 # آیکون برنامه (یه فایل PNG بذار توی پوشه)
-# icon.filename = icon.png
+# icon.filename = datis_logo_icon.png
 
 # مجوزهای اندروید
 android.permissions = INTERNET,WRITE_EXTERNAL_STORAGE,READ_EXTERNAL_STORAGE
