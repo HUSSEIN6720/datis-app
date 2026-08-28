@@ -10,7 +10,8 @@ source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,json
 source.exclude_exts = spec,db
 
-requirements = python3==3.9,kivy==2.0.0
+# ✅ استفاده از نسخه پایتون 3.11 (همون نسخه‌ای که در سیستم هست)
+requirements = python3==3.11,kivy==2.2.1
 
 orientation = portrait
 fullscreen = 0
@@ -19,7 +20,6 @@ icon.filename = datis_logo_icon.png
 
 android.permissions = INTERNET,WRITE_EXTERNAL_STORAGE,READ_EXTERNAL_STORAGE
 
-# ✅ تغییر API و NDK به نسخه‌های پشتیبانی‌شده
 android.api = 30
 android.minapi = 21
 android.ndk = 28c
@@ -28,7 +28,6 @@ android.sdk = 30
 android.accept_sdk_license = True
 android.allow_download = True
 
-# ✅ اضافه کردن این خط برای جلوگیری از خطای bootstrap
 android.bootstrap = sdl2
 
 android.gradle_dependencies =
