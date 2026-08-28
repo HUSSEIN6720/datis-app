@@ -19,16 +19,12 @@ icon.filename = datis_logo_icon.png
 
 android.permissions = INTERNET,WRITE_EXTERNAL_STORAGE,READ_EXTERNAL_STORAGE
 
-# ✅ تنظیمات SDK
 android.api = 30
 android.minapi = 21
 android.ndk = 23b
 android.sdk = 30
 
-# ✅ قبول خودکار مجوزها
 android.accept_sdk_license = True
-
-# ✅ جلوگیری از دانلود مجدد SDK در هر بار
 android.allow_download = True
 
 android.gradle_dependencies =
