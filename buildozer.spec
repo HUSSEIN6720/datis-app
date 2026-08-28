@@ -10,7 +10,8 @@ source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,json
 source.exclude_exts = spec,db
 
-requirements = python3==3.10.11,kivy==2.2.1
+# ✅ درست: kivy
+requirements = python3==3.10.11,kivy==2.1.0
 
 orientation = portrait
 fullscreen = 0
