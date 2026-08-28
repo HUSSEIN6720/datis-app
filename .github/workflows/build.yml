@@ -28,6 +28,9 @@ jobs:
 
       - name: Build APK
         run: |
+          # تنظیم متغیرهای محیطی برای جلوگیری از خطا
+          export P4A_BRANCH=develop
+          export P4A_UPDATE_SDK=0
           buildozer -v android debug
 
       - name: Upload APK
